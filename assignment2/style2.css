@@ -1,0 +1,24 @@
+/* Styling for welcome.php page */
+body {
+    font-family: Arial, sans-serif; /* Set the font family */
+    text-align: center;
+    background-color: lightgreen; /* Background color matching student.php */
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff; /* Background color matching student.php */
+}
+
+h2 {
+    color: #4caf50; /* Text color matching student.php */
+    text-align: center;
+}
+
+p {
+    margin-top: 10px;
+}

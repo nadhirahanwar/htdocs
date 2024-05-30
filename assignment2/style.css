@@ -1,0 +1,42 @@
+/* Styling for student.php form */
+body {
+    font-family: Arial, sans-serif; /* Set the font family */
+    background-color: lightgreen;
+}
+
+form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: white; /* Set background color to white */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.h2 {
+    font-size: 30px;
+    color: #4caf50;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 22px); /* Adjusting width to consider border and padding */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: calc(100% - 22px); /* Adjusting width to consider border and padding */
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
